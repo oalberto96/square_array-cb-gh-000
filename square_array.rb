@@ -1,5 +1,3 @@
 def square_array(array)
-  array.collect do |item|
-    item ** 2
-  end
+  array.collect{|item| item ** 2 }
 end
